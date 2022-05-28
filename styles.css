@@ -119,12 +119,12 @@ header {
   background-size: cover;
 }
 .menu-left {
-  width: 50%;
+  width: 40%;
   margin-left: 150px;
   margin-right: 50px;
 }
 .menu-right {
-  width: 50%;
+  width: 60%;
 }
 .menu-right img {
   width: 547px;
@@ -184,4 +184,63 @@ li a {
 
 /* LARGE DEVICES */
 @media (min-width: 1693px) {
+  .menu-left {
+    width: 60%;
+    margin-left: 450px;
+    margin-right: 50px;
+  }
+}
+
+/******** REVIEWS SECTION **********/
+
+.reviews {
+  background-image: url(./assets/PecanGrill-homepage-reviews-background.jpg);
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cust-review {
+  max-width: 550px;
+}
+.arrow-left {
+  align-self: flex-start;
+  position: absolute;
+}
+.arrow-right {
+  align-self: flex-end;
+  position: absolute;
+}
+.review-heading,
+.cust-review,
+.reviewer-cont {
+  color: white;
+}
+.review-heading {
+  margin-bottom: 50px;
+}
+.cust-review {
+  font-size: 35px;
+  text-align: center;
+  margin: 0 20px;
+}
+.reviewer-cont {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/******** REVIEWS MEDIA QUERIES **********/
+
+/* SMALL DEVICES */
+@media (max-width: 700px) {
+  .cust-review {
+    font-size: 25px;
+    margin: 0 35px;
+  }
 }
