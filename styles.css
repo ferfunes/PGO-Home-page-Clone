@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-/******** Header **********/
+/******** HEADER **********/
 
 header {
   background-image: url(./assets/PecanGrill-homepage-header-image.png);
@@ -106,4 +106,25 @@ header {
   .down-arrow {
     margin-top: 100px;
   }
+}
+
+/******** MENU SECTION **********/
+
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  list-style: none;
+}
+
+.menu-list li {
+  padding-right: 20px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.list-item1 a:active {
+  text-decoration: underline;
 }
