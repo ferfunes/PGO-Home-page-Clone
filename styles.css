@@ -15,6 +15,7 @@
   --buttonred: #6f1100;
   --fontwhite-color: #fff5e4;
   --fontfooter-color: #8a7465;
+  --footer-color: #1a1a1a;
 }
 
 /******** SETTING MARGINS / PADDINGS AND SCROLL BEHAVIOR **********/
@@ -301,7 +302,7 @@ li a {
 /******** FOOTER **********/
 
 .footer-cont {
-  background-color: rgb(25, 22, 22);
+  background-color: var(--footer-color);
   display: flex;
   justify-content: center;
   align-items: center;
